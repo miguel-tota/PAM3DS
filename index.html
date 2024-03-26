@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Cliques</title>
+</head>
+<body>
+        <button id="clickButton">Clique Aqui</button>
+        <p id="clickCount">0</p>
+            <script src="script.js"></script>
+            <hr>
+                <button onmouseover="handleMouseOver()">Passe o mouse</button>
+                     <input type="text" onfocus="handleFocus()" onchange="handleChange()">
+
+            <script>
+                 function handleMouseOver() {
+                            alert("Mouse passou sobre o botão!");
+                        }       
+                            function handleFocus() {
+                                alert("Input recebeu foco!");
+                            }
+                                function handleChange() {
+                                    alert("O valor do input mudou!");
+                                }
+    
+            </script>
+                <hr>
+                    <button onclick="showAlert()">Clique Aqui</button>
+
+            <script>
+                 function showAlert() {
+                            alert("Você clicou no botão!");
+                     }
+            </script>      
+    
+</body>
+</html>
